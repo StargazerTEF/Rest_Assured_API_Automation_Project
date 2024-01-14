@@ -1,0 +1,22 @@
+<suite name="Rest Assure API" verbose="1" >
+    <test name="Authorization tests">
+        <classes>
+            <class name="tests.AuthTests"/>
+        </classes>
+    </test>
+    <test name="City tests">
+        <classes>
+            <class name="tests.CityTests"/>
+        </classes>
+    </test>
+    <test name="Profile tests">
+        <classes>
+            <class name="tests.ProfileTests"/>
+        </classes>
+    </test>
+    <test name="User tests">
+        <classes>
+            <class name="tests.UserTests"/>
+        </classes>
+    </test>
+</suite>
